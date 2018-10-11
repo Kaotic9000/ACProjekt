@@ -40,7 +40,7 @@ c = tk.Button(window, text="Load", command=callbackLoad)
 c.grid(row=3,column=0)
 
 d = tk.Button(window, text="Start", command=callbackStart)
-d.grid(row=4,column=0)
+d.grid(row=4,column=1)
 
 b = tk.Button(window, text="Ny", command=callbackNy)
 b.grid(row=0, column=0)
@@ -64,7 +64,7 @@ f = tk.Entry(window)
 f.grid(row=1,column=2)
 
 g = tk.Button(window, text="Stop", command=callbackStop)
-g.grid(row=4,column=1)
+g.grid(row=4,column=0)
 
 window.mainloop()
 
